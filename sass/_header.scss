@@ -1,0 +1,78 @@
+header{
+    .container-hero{
+        background-color: white;
+        .hero{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 36px 0;
+            .customer-support{
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                color: darkblue;
+                i{
+                    font-size: 3rem;
+                }
+                .content-customer-support{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .container-logo{
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+                h1{
+                    font-family: "Monsieur La Doulaise", cursive;
+                    text-decoration: none;
+                    color: darkblue;
+                    font-size: 7rem;
+                }
+            }
+            .container-user{
+                display: flex;
+                gap: 1rem;
+                cursor: pointer;
+                color: darkblue;
+                .fa-user{
+                    font-size: 3rem;
+                    padding-right: 2.5rem;
+                    border-right: 1px solid ;
+                }
+                .fa-basket-shopping{
+                    font-size: 3rem;
+                    padding-left: 1rem;
+                }
+                content-chango{
+                    display: flex;
+                    flex-direction: column;
+                    color: rgb(0, 0, 139);
+                }
+            }
+        }
+    }
+    .container-navbar{
+        background-color: white;
+        .navbar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            .menu{
+                display: flex;
+                gap: 2rem;
+                li{
+                    list-style-type: none;
+                    color: darkblue;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    color: darkblue;
+                }
+            }
+        }
+    }  
+}

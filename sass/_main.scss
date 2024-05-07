@@ -1,0 +1,172 @@
+.banner{
+    background-image: linear-gradient(100deg, #040405, #00000020 ), url(../assets/img/russian.png);
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
+    .content-banner{
+        max-width: 90rem;
+        margin: 0 auto;
+        padding: 25rem 0;
+        p{
+            color: rgb(116, 116, 240);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        h2{
+            color: white;
+            font-size: 3.5rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+        a{
+            margin-top: 2rem;
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            display: inline-block;
+            padding: 1rem 3rem;
+            text-transform: uppercase;
+            border-radius: 3rem;
+        }
+    }
+}
+
+.main-content{
+    background-color: white;
+    .top-diseños{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 3rem;
+        .container-diseños{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            .card-diseño{
+                height: 20rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 2rem;
+                gap: 2rem;
+            }
+            .diseño-abstractshape{
+                background-image:linear-gradient(#00000050, #00000050), url(../assets/img/abstractshape.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .diseño-bomberman{
+                background-image:linear-gradient(#00000050, #00000050), url(../assets/img/bomberman.jpg);
+                background-size: cover;
+                background-position: top;
+                background-repeat: no-repeat;
+            }
+            .diseño-russian{
+                background-image:linear-gradient(#00000050, #00000050), url(../assets/img/russian.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            p{
+                font-size: 2.5rem;
+                color: white;
+                text-transform: capitalize;
+                position: relative;
+            }
+            span{
+                font-size: 1.5rem;
+                color: white;
+                cursor: pointer;
+            }
+            span:hover{
+                color: rgb(0, 0, 0);
+            }
+        }
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2,30rem);
+        gap: 1.5rem;
+        margin: 2rem;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .galeria-imagen-4{
+            grid-column: 2/4;
+            grid-row: 1/3;
+        }
+    }
+    #carouselExampleDark{
+        max-width: 300px;
+        max-height: 300px;
+        margin-left: 40%;
+        margin-bottom: 10%;
+    }
+}
+
+
+
+
+
+.container-products{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    .buy{
+        display: flex;
+        justify-content: space-between;
+        background-color: green;
+        color: white;
+        .buy-text{
+            font-size: 2rem;
+            padding: 5px;
+        }
+    }
+}
+
+
+
+
+
+.us-container{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    .descriptions{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+
+
+
+
+.container-form{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-designs{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+.tamano400{
+    width: 400px;
+    height: 400px;
+}

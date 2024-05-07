@@ -1,0 +1,93 @@
+footer{
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding: 3rem;
+        .menu-footer{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 2fr 1fr;
+            justify-items: center;
+            padding-right: 20%;
+            padding-left: 10%;
+            .info-contacto{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                margin-left: 20%;
+                .titulo-footer-contacto{
+                    font-weight: 600;
+                    font-size: 1.6rem;
+                    text-transform: uppercase;
+                    color: darkblue;
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    li{
+                        list-style-type: none;
+                        font-size: 1.4rem;
+                        font-weight: 300;
+                        color: darkblue;
+                    }
+                    a{
+                        text-decoration: none;
+                        font-weight: 300;
+                    }
+                }
+                .redes-sociales{
+                    display: flex;
+                    gap: 1.5rem;
+                    i{
+                        font-size: 2.5rem;
+                        padding-bottom: 20px;
+                        color: darkblue;
+                    }
+                }
+            }
+            .categorias{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                margin-left: 20%;
+                .titulo-footer-categorias{
+                    font-weight: 600;
+                    font-size: 1.6rem;
+                    text-transform: uppercase;
+                    color: darkblue;   
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    li{
+                        list-style-type: none;
+                        font-size: 1.4rem;
+                        font-weight: 300;
+                    }
+                    a{
+                        text-decoration: none;
+                        font-weight: 300;
+                        color: darkblue;
+                    }
+                }
+            }
+            .copyright{
+                display: grid;
+                grid-template-columns: 2fr;
+                padding-top: 2rem;
+                border-top: 1px solid black;
+                margin-left: 120%;
+                p{
+                    font-weight: 500;
+                    font-size: 1.5rem;
+                }
+                .payment{
+                    width: 300px;
+                }            
+            }   
+        }
+    }
+}

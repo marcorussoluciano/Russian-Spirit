@@ -1,0 +1,975 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.heading-1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: darkblue;
+}
+
+.heading-2 {
+  text-align: left;
+  font-size: 2.5rem;
+  color: darkblue;
+  padding-top: 20px;
+}
+
+.heading-3 {
+  text-align: left;
+  font-size: 1.7rem;
+  color: darkblue;
+  padding-top: 15px;
+}
+
+header .container-hero {
+  background-color: white;
+}
+header .container-hero .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 0;
+}
+header .container-hero .hero .customer-support {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: darkblue;
+}
+header .container-hero .hero .customer-support i {
+  font-size: 3rem;
+}
+header .container-hero .hero .customer-support .content-customer-support {
+  display: flex;
+  flex-direction: column;
+}
+header .container-hero .hero .container-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+header .container-hero .hero .container-logo h1 {
+  font-family: "Monsieur La Doulaise", cursive;
+  text-decoration: none;
+  color: darkblue;
+  font-size: 7rem;
+}
+header .container-hero .hero .container-user {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  color: darkblue;
+}
+header .container-hero .hero .container-user .fa-user {
+  font-size: 3rem;
+  padding-right: 2.5rem;
+  border-right: 1px solid;
+}
+header .container-hero .hero .container-user .fa-basket-shopping {
+  font-size: 3rem;
+  padding-left: 1rem;
+}
+header .container-hero .hero .container-user content-chango {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 139);
+}
+header .container-navbar {
+  background-color: white;
+}
+header .container-navbar .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+header .container-navbar .navbar .menu {
+  display: flex;
+  gap: 2rem;
+}
+header .container-navbar .navbar .menu li {
+  list-style-type: none;
+  color: darkblue;
+}
+header .container-navbar .navbar .menu a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: darkblue;
+}
+
+.banner {
+  background-image: linear-gradient(100deg, #040405, rgba(0, 0, 0, 0.1254901961)), url(../assets/img/russian.png);
+  height: 60rem;
+  background-size: cover;
+  background-position: center;
+}
+.banner .content-banner {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 25rem 0;
+}
+.banner .content-banner p {
+  color: rgb(116, 116, 240);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.banner .content-banner h2 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.banner .content-banner a {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  border-radius: 3rem;
+}
+
+.main-content {
+  background-color: white;
+}
+.main-content .top-diseños {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.main-content .top-diseños .container-diseños {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.main-content .top-diseños .container-diseños .card-diseño {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  gap: 2rem;
+}
+.main-content .top-diseños .container-diseños .diseño-abstractshape {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/abstractshape.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-content .top-diseños .container-diseños .diseño-bomberman {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/bomberman.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.main-content .top-diseños .container-diseños .diseño-russian {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/russian.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-content .top-diseños .container-diseños p {
+  font-size: 2.5rem;
+  color: white;
+  text-transform: capitalize;
+  position: relative;
+}
+.main-content .top-diseños .container-diseños span {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+.main-content .top-diseños .container-diseños span:hover {
+  color: rgb(0, 0, 0);
+}
+.main-content .galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 30rem);
+  gap: 1.5rem;
+  margin: 2rem;
+}
+.main-content .galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-content .galeria .galeria-imagen-4 {
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+.main-content #carouselExampleDark {
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 40%;
+  margin-bottom: 10%;
+}
+
+.container-products {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container-products .buy {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  color: white;
+}
+.container-products .buy .buy-text {
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.us-container {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.us-container .descriptions {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.container-form {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-designs {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.tamano400 {
+  width: 400px;
+  height: 400px;
+}
+
+footer .container-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 3rem;
+}
+footer .container-footer .menu-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2fr 1fr;
+  justify-items: center;
+  padding-right: 20%;
+  padding-left: 10%;
+}
+footer .container-footer .menu-footer .info-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 20%;
+}
+footer .container-footer .menu-footer .info-contacto .titulo-footer-contacto {
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: darkblue;
+}
+footer .container-footer .menu-footer .info-contacto ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer .container-footer .menu-footer .info-contacto ul li {
+  list-style-type: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: darkblue;
+}
+footer .container-footer .menu-footer .info-contacto ul a {
+  text-decoration: none;
+  font-weight: 300;
+}
+footer .container-footer .menu-footer .info-contacto .redes-sociales {
+  display: flex;
+  gap: 1.5rem;
+}
+footer .container-footer .menu-footer .info-contacto .redes-sociales i {
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+  color: darkblue;
+}
+footer .container-footer .menu-footer .categorias {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 20%;
+}
+footer .container-footer .menu-footer .categorias .titulo-footer-categorias {
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: darkblue;
+}
+footer .container-footer .menu-footer .categorias ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer .container-footer .menu-footer .categorias ul li {
+  list-style-type: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+footer .container-footer .menu-footer .categorias ul a {
+  text-decoration: none;
+  font-weight: 300;
+  color: darkblue;
+}
+footer .container-footer .menu-footer .copyright {
+  display: grid;
+  grid-template-columns: 2fr;
+  padding-top: 2rem;
+  border-top: 1px solid black;
+  margin-left: 120%;
+}
+footer .container-footer .menu-footer .copyright p {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+footer .container-footer .menu-footer .copyright .payment {
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body html {
+    font-size: 55%;
+  }
+  body .container {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  body .heading-1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: darkblue;
+  }
+  body .heading-2 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: darkblue;
+    padding-top: 20px;
+  }
+  body .heading-3 {
+    text-align: left;
+    font-size: 1.7rem;
+    color: darkblue;
+    padding-top: 15px;
+  }
+  header .container-hero {
+    background-color: white;
+  }
+  header .container-hero .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  header .container-hero .hero .customer-support {
+    display: none;
+  }
+  header .container-hero .hero .customer-support i {
+    font-size: 3rem;
+  }
+  header .container-hero .hero .customer-support .content-customer-support {
+    display: flex;
+    flex-direction: column;
+  }
+  header .container-hero .hero .container-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  header .container-hero .hero .container-logo h1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 6rem;
+  }
+  header .container-hero .hero .container-user {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    color: darkblue;
+  }
+  header .container-hero .hero .container-user .fa-user {
+    font-size: 2.5rem;
+    padding-right: 2.5rem;
+    border-right: 1px solid;
+  }
+  header .container-hero .hero .container-user .fa-basket-shopping {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+  }
+  header .container-hero .hero .container-user content-chango {
+    display: none;
+  }
+  header .container-navbar {
+    background-color: white;
+  }
+  header .container-navbar .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  header .container-navbar .navbar .menu {
+    display: none;
+  }
+  header .container-navbar .navbar .menu li {
+    list-style-type: none;
+    color: darkblue;
+  }
+  header .container-navbar .navbar .menu a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: darkblue;
+  }
+  .banner {
+    background-image: linear-gradient(100deg, #040405, rgba(0, 0, 0, 0.1254901961)), url(../assets/img/russian.png);
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner .content-banner {
+    max-width: 50rem;
+    margin-right: 0 auto;
+    padding: 25rem 0;
+  }
+  .banner .content-banner p {
+    color: rgb(116, 116, 240);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .banner .content-banner h2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .banner .content-banner a {
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+  }
+  .main-content {
+    background-color: white;
+  }
+  .main-content .top-diseños {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  .main-content .top-diseños .container-diseños {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .main-content .top-diseños .container-diseños .card-diseño {
+    height: 30rem;
+    width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 2rem;
+  }
+  .main-content .top-diseños .container-diseños .diseño-abstractshape {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/abstractshape.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .main-content .top-diseños .container-diseños .diseño-bomberman {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/bomberman.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .main-content .top-diseños .container-diseños .diseño-russian {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/russian.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .main-content .top-diseños .container-diseños p {
+    font-size: 2.5rem;
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    text-align: center;
+    line-height: 1;
+  }
+  .main-content .galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 15rem);
+    gap: 1.5rem;
+    margin: 2rem;
+  }
+  .main-content .galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-content .galeria .galeria-imagen-4 {
+    grid-column: 2/4;
+    grid-row: 1/3;
+  }
+  .main-content #carouselExampleDark {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .footer .container-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem;
+  }
+  .footer .container-footer .menu-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr 1fr;
+    justify-items: center;
+    padding-right: 20%;
+    padding-left: 10%;
+  }
+  .footer .container-footer .menu-footer .info-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 20%;
+  }
+  .footer .container-footer .menu-footer .info-contacto .titulo-footer-contacto {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: darkblue;
+  }
+  .footer .container-footer .menu-footer .info-contacto ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer .container-footer .menu-footer .info-contacto ul li {
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: darkblue;
+  }
+  .footer .container-footer .menu-footer .info-contacto ul a {
+    text-decoration: none;
+    font-weight: 300;
+  }
+  .footer .container-footer .menu-footer .info-contacto .redes-sociales {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .footer .container-footer .menu-footer .info-contacto .redes-sociales i {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    color: darkblue;
+  }
+  .footer .container-footer .menu-footer .categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 20%;
+  }
+  .footer .container-footer .menu-footer .categorias .titulo-footer-categorias {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: darkblue;
+  }
+  .footer .container-footer .menu-footer .categorias ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer .container-footer .menu-footer .categorias ul li {
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+  .footer .container-footer .menu-footer .categorias ul a {
+    text-decoration: none;
+    font-weight: 300;
+    color: darkblue;
+  }
+  .footer .container-footer .menu-footer .copyright {
+    padding-top: 2rem;
+    border-top: 1px solid black;
+    margin-right: 30%;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer .container-footer .menu-footer .copyright p {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .footer .container-footer .menu-footer .copyright .payment {
+    width: 300px;
+  }
+}
+@media (max-width: 468px) {
+  body html {
+    font-size: 42, 5%;
+  }
+  body .content-banner {
+    max-width: 50rem;
+    padding: 22rem 0;
+  }
+  body .heading-1 {
+    font-size: 2.8rem;
+  }
+  body .heading-2 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: darkblue;
+    padding-top: 20px;
+  }
+  body .heading-3 {
+    text-align: left;
+    font-size: 1.7rem;
+    color: darkblue;
+    padding-top: 15px;
+  }
+  header .container-hero {
+    background-color: white;
+  }
+  header .container-hero .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  header .container-hero .hero .customer-support {
+    display: none;
+  }
+  header .container-hero .hero .customer-support i {
+    font-size: 3rem;
+  }
+  header .container-hero .hero .customer-support .content-customer-support {
+    display: flex;
+    flex-direction: column;
+  }
+  header .container-hero .hero .container-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  header .container-hero .hero .container-logo h1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 3rem;
+  }
+  header .container-hero .hero .container-user {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    color: darkblue;
+  }
+  header .container-hero .hero .container-user .fa-user {
+    font-size: 2.5rem;
+    padding-right: 2.5rem;
+    border-right: 1px solid;
+  }
+  header .container-hero .hero .container-user .fa-basket-shopping {
+    font-size: 2.5rem;
+    padding-left: 1rem;
+  }
+  header .container-hero .hero .container-user content-chango {
+    display: none;
+  }
+  header .container-navbar {
+    background-color: white;
+  }
+  header .container-navbar .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  header .container-navbar .navbar .menu {
+    display: none;
+  }
+  header .container-navbar .navbar .menu li {
+    list-style-type: none;
+    color: darkblue;
+  }
+  header .container-navbar .navbar .menu a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: darkblue;
+  }
+  .banner {
+    background-image: linear-gradient(100deg, #040405, rgba(0, 0, 0, 0.1254901961)), url(../assets/img/russian.png);
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner .content-banner {
+    max-width: 50rem;
+    margin-right: 0 auto;
+    padding: 25rem 0;
+  }
+  .banner .content-banner p {
+    color: rgb(116, 116, 240);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .banner .content-banner h2 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .banner .content-banner a {
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+  }
+  .main-content {
+    background-color: white;
+  }
+  .main-content .top-diseños {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  .main-content .top-diseños .container-diseños {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .main-content .top-diseños .container-diseños .card-diseño {
+    height: 30rem;
+    width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 2rem;
+  }
+  .main-content .top-diseños .container-diseños .diseño-abstractshape {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/abstractshape.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .main-content .top-diseños .container-diseños .diseño-bomberman {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/bomberman.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .main-content .top-diseños .container-diseños .diseño-russian {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/russian.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .main-content .top-diseños .container-diseños p {
+    font-size: 2rem;
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    text-align: center;
+    line-height: 1;
+  }
+  .main-content .galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 15rem);
+    gap: 1.5rem;
+    margin: 2rem;
+  }
+  .main-content .galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-content .galeria .galeria-imagen-4 {
+    grid-column: 2/4;
+    grid-row: 1/3;
+  }
+  .main-content #carouselExampleDark {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+  }
+  .main-content .container-designs {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  .footer .container-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem;
+  }
+  .footer .container-footer .menu-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-items: center;
+    padding-right: 20%;
+    padding-left: 10%;
+  }
+  .footer .container-footer .menu-footer .info-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 20%;
+    align-items: center;
+  }
+  .footer .container-footer .menu-footer .info-contacto .titulo-footer-contacto {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: darkblue;
+  }
+  .footer .container-footer .menu-footer .info-contacto ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer .container-footer .menu-footer .info-contacto ul li {
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: darkblue;
+  }
+  .footer .container-footer .menu-footer .info-contacto ul a {
+    text-decoration: none;
+    font-weight: 300;
+  }
+  .footer .container-footer .menu-footer .info-contacto .redes-sociales {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .footer .container-footer .menu-footer .info-contacto .redes-sociales i {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    color: darkblue;
+  }
+  .footer .container-footer .menu-footer .categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 20%;
+  }
+  .footer .container-footer .menu-footer .categorias .titulo-footer-categorias {
+    display: none;
+  }
+  .footer .container-footer .menu-footer .categorias ul {
+    display: none;
+  }
+  .footer .container-footer .menu-footer .categorias ul li {
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+  .footer .container-footer .menu-footer .categorias ul a {
+    text-decoration: none;
+    font-weight: 300;
+    color: darkblue;
+  }
+  .footer .container-footer .menu-footer .copyright {
+    border-top: 1px solid black;
+    margin-right: 100%;
+    padding-top: none;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer .container-footer .menu-footer .copyright p {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .footer .container-footer .menu-footer .copyright .payment {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
