@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +15,7 @@ html {
 }
 
 .heading-1 {
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: 500;
   font-size: 3rem;
@@ -25,6 +25,7 @@ html {
 }
 
 .heading-2 {
+  font-family: "Poppins", sans-serif;
   text-align: left;
   font-size: 2.5rem;
   color: darkblue;
@@ -32,6 +33,7 @@ html {
 }
 
 .heading-3 {
+  font-family: "Poppins", sans-serif;
   text-align: left;
   font-size: 1.7rem;
   color: darkblue;
@@ -39,7 +41,7 @@ html {
 }
 
 header .container-hero {
-  background-color: white;
+  background-color: #ffffff;
 }
 header .container-hero .hero {
   display: flex;
@@ -51,12 +53,13 @@ header .container-hero .hero .customer-support {
   display: flex;
   align-items: center;
   gap: 2rem;
-  color: darkblue;
+  color: #00008b;
 }
 header .container-hero .hero .customer-support i {
   font-size: 3rem;
 }
 header .container-hero .hero .customer-support .content-customer-support {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -68,14 +71,14 @@ header .container-hero .hero .container-logo {
 header .container-hero .hero .container-logo h1 {
   font-family: "Monsieur La Doulaise", cursive;
   text-decoration: none;
-  color: darkblue;
+  color: #00008b;
   font-size: 7rem;
 }
 header .container-hero .hero .container-user {
   display: flex;
   gap: 1rem;
   cursor: pointer;
-  color: darkblue;
+  color: #00008b;
 }
 header .container-hero .hero .container-user .fa-user {
   font-size: 3rem;
@@ -89,15 +92,15 @@ header .container-hero .hero .container-user .fa-basket-shopping {
 header .container-hero .hero .container-user content-chango {
   display: flex;
   flex-direction: column;
-  color: rgb(0, 0, 139);
+  color: #00008b;
 }
 header .container-navbar {
-  background-color: white;
+  background-color: #ffffff;
 }
 header .container-navbar .navbar {
   display: flex;
   justify-content: center;
-  align-items: center;
+  justify-items: center;
   padding: 5px;
 }
 header .container-navbar .navbar .menu {
@@ -106,13 +109,14 @@ header .container-navbar .navbar .menu {
 }
 header .container-navbar .navbar .menu li {
   list-style-type: none;
-  color: darkblue;
+  color: #00008b;
 }
 header .container-navbar .navbar .menu a {
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
-  color: darkblue;
+  color: #00008b;
 }
 
 .banner {
@@ -127,18 +131,21 @@ header .container-navbar .navbar .menu a {
   padding: 25rem 0;
 }
 .banner .content-banner p {
+  font-family: "Poppins", sans-serif;
   color: rgb(116, 116, 240);
   font-size: 2rem;
   margin-bottom: 1rem;
-  font-weight: 500;
+  font-weight: 500px;
 }
 .banner .content-banner h2 {
+  font-family: "Poppins", sans-serif;
   color: white;
   font-size: 3.5rem;
-  font-weight: 500;
+  font-weight: 500px;
   line-height: 1.2;
 }
 .banner .content-banner a {
+  font-family: "Poppins", sans-serif;
   margin-top: 2rem;
   text-decoration: none;
   color: white;
@@ -150,81 +157,83 @@ header .container-navbar .navbar .menu a {
 }
 
 .main-content {
-  background-color: white;
+  background-color: #ffffff;
 }
-.main-content .top-diseños {
+.main-content .container-categories {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
-.main-content .top-diseños .container-diseños {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  flex-direction: row;
+  justify-content: space-between;
   gap: 3rem;
+  margin: 6rem;
+  margin-left: 14%;
 }
-.main-content .top-diseños .container-diseños .card-diseño {
-  height: 20rem;
+.main-content .container-categories .card-categories {
+  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border-radius: 2rem;
   gap: 2rem;
 }
-.main-content .top-diseños .container-diseños .diseño-abstractshape {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/abstractshape.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.main-content .container-categories .card-categories .fa-code {
+  font-size: 3rem;
 }
-.main-content .top-diseños .container-diseños .diseño-bomberman {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/bomberman.jpg);
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
+.main-content .container-categories .card-categories .fa-video {
+  font-size: 3rem;
 }
-.main-content .top-diseños .container-diseños .diseño-russian {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/russian.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.main-content .container-categories .card-categories .fa-codepen {
+  font-size: 3rem;
 }
-.main-content .top-diseños .container-diseños p {
-  font-size: 2.5rem;
-  color: white;
+.main-content .container-categories .card-categories .content-categories {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-content .container-categories .card-categories .content-categories p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  color: black;
   text-transform: capitalize;
   position: relative;
+  padding: 10px;
 }
-.main-content .top-diseños .container-diseños span {
-  font-size: 1.5rem;
-  color: white;
-  cursor: pointer;
+.main-content .container-categories .card-categories .content-categories span {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  color: #00008b;
 }
-.main-content .top-diseños .container-diseños span:hover {
-  color: rgb(0, 0, 0);
-}
-.main-content .galeria {
+
+.galeria {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 30rem);
   gap: 1.5rem;
   margin: 2rem;
 }
-.main-content .galeria img {
+.galeria img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.main-content .galeria .galeria-imagen-4 {
+.galeria .galeria-imagen-4 {
   grid-column: 2/4;
   grid-row: 1/3;
 }
-.main-content #carouselExampleDark {
+
+#carouselExampleDark {
   max-width: 300px;
   max-height: 300px;
   margin-left: 40%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
+}
+#carouselExampleDark .carousel-caption {
+  background-color: green;
+  border-radius: 10px;
+}
+#carouselExampleDark .carousel-caption .adquirir {
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
 }
 
 .container-products {
@@ -234,13 +243,21 @@ header .container-navbar .navbar .menu a {
   flex-wrap: wrap;
   gap: 20px;
 }
+.container-products .products {
+  width: 350px;
+  height: 500px;
+  border-radius: 5px;
+}
 .container-products .buy {
   display: flex;
   justify-content: space-between;
   background-color: green;
   color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .container-products .buy .buy-text {
+  font-family: "Poppins", sans-serif;
   font-size: 2rem;
   padding: 5px;
 }
@@ -250,30 +267,57 @@ header .container-navbar .navbar .menu a {
   margin-top: 40px;
 }
 .us-container .descriptions {
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
 .container-form {
-  padding-bottom: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 500px;
+  background-color: #ffffff;
+  border: darkblue solid 2px;
+  border-radius: 5px;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.container-form .controls {
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  border: darkblue solid 0.05px;
+}
+.container-form .button {
+  width: 100%;
+  background: rgb(2, 2, 83);
+  padding: 12px;
+  border: none;
+  color: white;
+  font-size: 16px;
 }
 
 .container-designs {
-  margin: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  align-items: center;
-  gap: 20px;
-  justify-content: space-around;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
 
 .tamano400 {
   width: 400px;
   height: 400px;
+}
+
+.content-designs {
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 footer .container-footer {
@@ -297,8 +341,9 @@ footer .container-footer .menu-footer .info-contacto {
   margin-left: 20%;
 }
 footer .container-footer .menu-footer .info-contacto .titulo-footer-contacto {
-  font-weight: 600;
-  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700px;
+  font-size: 2rem;
   text-transform: uppercase;
   color: darkblue;
 }
@@ -308,22 +353,22 @@ footer .container-footer .menu-footer .info-contacto ul {
   gap: 1rem;
 }
 footer .container-footer .menu-footer .info-contacto ul li {
+  font-family: "Poppins", sans-serif;
   list-style-type: none;
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 1.6rem;
+  font-weight: 500px;
   color: darkblue;
 }
 footer .container-footer .menu-footer .info-contacto ul a {
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 500px;
 }
 footer .container-footer .menu-footer .info-contacto .redes-sociales {
-  display: flex;
   gap: 1.5rem;
 }
 footer .container-footer .menu-footer .info-contacto .redes-sociales i {
   font-size: 2.5rem;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   color: darkblue;
 }
 footer .container-footer .menu-footer .categorias {
@@ -333,8 +378,9 @@ footer .container-footer .menu-footer .categorias {
   margin-left: 20%;
 }
 footer .container-footer .menu-footer .categorias .titulo-footer-categorias {
-  font-weight: 600;
-  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700px;
+  font-size: 2rem;
   text-transform: uppercase;
   color: darkblue;
 }
@@ -345,12 +391,13 @@ footer .container-footer .menu-footer .categorias ul {
 }
 footer .container-footer .menu-footer .categorias ul li {
   list-style-type: none;
-  font-size: 1.4rem;
-  font-weight: 300;
+  font-size: 1.6rem;
+  font-weight: 500px;
 }
 footer .container-footer .menu-footer .categorias ul a {
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 500px;
   color: darkblue;
 }
 footer .container-footer .menu-footer .copyright {
@@ -361,6 +408,7 @@ footer .container-footer .menu-footer .copyright {
   margin-left: 120%;
 }
 footer .container-footer .menu-footer .copyright p {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -368,310 +416,6 @@ footer .container-footer .menu-footer .copyright .payment {
   width: 300px;
 }
 
-@media (max-width: 768px) {
-  body * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body html {
-    font-size: 55%;
-  }
-  body .container {
-    max-width: 120rem;
-    margin: 0 auto;
-  }
-  body .heading-1 {
-    text-align: center;
-    font-weight: 500;
-    font-size: 2.4rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: darkblue;
-  }
-  body .heading-2 {
-    text-align: left;
-    font-size: 2.5rem;
-    color: darkblue;
-    padding-top: 20px;
-  }
-  body .heading-3 {
-    text-align: left;
-    font-size: 1.7rem;
-    color: darkblue;
-    padding-top: 15px;
-  }
-  header .container-hero {
-    background-color: white;
-  }
-  header .container-hero .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-  }
-  header .container-hero .hero .customer-support {
-    display: none;
-  }
-  header .container-hero .hero .customer-support i {
-    font-size: 3rem;
-  }
-  header .container-hero .hero .customer-support .content-customer-support {
-    display: flex;
-    flex-direction: column;
-  }
-  header .container-hero .hero .container-logo {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  header .container-hero .hero .container-logo h1 {
-    font-family: "Monsieur La Doulaise", cursive;
-    text-decoration: none;
-    color: darkblue;
-    font-size: 6rem;
-  }
-  header .container-hero .hero .container-user {
-    display: flex;
-    gap: 1rem;
-    cursor: pointer;
-    color: darkblue;
-  }
-  header .container-hero .hero .container-user .fa-user {
-    font-size: 2.5rem;
-    padding-right: 2.5rem;
-    border-right: 1px solid;
-  }
-  header .container-hero .hero .container-user .fa-basket-shopping {
-    font-size: 2.5rem;
-    padding-left: 1rem;
-  }
-  header .container-hero .hero .container-user content-chango {
-    display: none;
-  }
-  header .container-navbar {
-    background-color: white;
-  }
-  header .container-navbar .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 2rem;
-  }
-  header .container-navbar .navbar .menu {
-    display: none;
-  }
-  header .container-navbar .navbar .menu li {
-    list-style-type: none;
-    color: darkblue;
-  }
-  header .container-navbar .navbar .menu a {
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: darkblue;
-  }
-  .banner {
-    background-image: linear-gradient(100deg, #040405, rgba(0, 0, 0, 0.1254901961)), url(../assets/img/russian.png);
-    height: 60rem;
-    background-size: cover;
-    background-position: center;
-  }
-  .banner .content-banner {
-    max-width: 50rem;
-    margin-right: 0 auto;
-    padding: 25rem 0;
-  }
-  .banner .content-banner p {
-    color: rgb(116, 116, 240);
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-weight: 500;
-  }
-  .banner .content-banner h2 {
-    color: white;
-    font-size: 3rem;
-    font-weight: 500;
-    line-height: 1.2;
-  }
-  .banner .content-banner a {
-    margin-top: 2rem;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    display: inline-block;
-    padding: 1rem 3rem;
-    text-transform: uppercase;
-    border-radius: 3rem;
-  }
-  .main-content {
-    background-color: white;
-  }
-  .main-content .top-diseños {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 3rem;
-  }
-  .main-content .top-diseños .container-diseños {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-  }
-  .main-content .top-diseños .container-diseños .card-diseño {
-    height: 30rem;
-    width: 65rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2rem;
-    gap: 2rem;
-  }
-  .main-content .top-diseños .container-diseños .diseño-abstractshape {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/abstractshape.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .main-content .top-diseños .container-diseños .diseño-bomberman {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/bomberman.jpg);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
-  .main-content .top-diseños .container-diseños .diseño-russian {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/russian.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .main-content .top-diseños .container-diseños p {
-    font-size: 2.5rem;
-    color: white;
-    text-transform: capitalize;
-    position: relative;
-    text-align: center;
-    line-height: 1;
-  }
-  .main-content .galeria {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 15rem);
-    gap: 1.5rem;
-    margin: 2rem;
-  }
-  .main-content .galeria img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .main-content .galeria .galeria-imagen-4 {
-    grid-column: 2/4;
-    grid-row: 1/3;
-  }
-  .main-content #carouselExampleDark {
-    max-width: 300px;
-    max-height: 300px;
-    margin-top: 5%;
-    margin-bottom: 20%;
-    display: flex;
-    align-items: center;
-  }
-  .footer .container-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    padding: 3rem;
-  }
-  .footer .container-footer .menu-footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 2fr 1fr;
-    justify-items: center;
-    padding-right: 20%;
-    padding-left: 10%;
-  }
-  .footer .container-footer .menu-footer .info-contacto {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-left: 20%;
-  }
-  .footer .container-footer .menu-footer .info-contacto .titulo-footer-contacto {
-    font-weight: 600;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    color: darkblue;
-  }
-  .footer .container-footer .menu-footer .info-contacto ul {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .footer .container-footer .menu-footer .info-contacto ul li {
-    list-style-type: none;
-    font-size: 1.4rem;
-    font-weight: 300;
-    color: darkblue;
-  }
-  .footer .container-footer .menu-footer .info-contacto ul a {
-    text-decoration: none;
-    font-weight: 300;
-  }
-  .footer .container-footer .menu-footer .info-contacto .redes-sociales {
-    display: flex;
-    gap: 1.5rem;
-  }
-  .footer .container-footer .menu-footer .info-contacto .redes-sociales i {
-    font-size: 2.5rem;
-    padding-bottom: 20px;
-    color: darkblue;
-  }
-  .footer .container-footer .menu-footer .categorias {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-left: 20%;
-  }
-  .footer .container-footer .menu-footer .categorias .titulo-footer-categorias {
-    font-weight: 600;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    color: darkblue;
-  }
-  .footer .container-footer .menu-footer .categorias ul {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .footer .container-footer .menu-footer .categorias ul li {
-    list-style-type: none;
-    font-size: 1.4rem;
-    font-weight: 300;
-  }
-  .footer .container-footer .menu-footer .categorias ul a {
-    text-decoration: none;
-    font-weight: 300;
-    color: darkblue;
-  }
-  .footer .container-footer .menu-footer .copyright {
-    padding-top: 2rem;
-    border-top: 1px solid black;
-    margin-right: 30%;
-    gap: 1.5rem;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .footer .container-footer .menu-footer .copyright p {
-    font-weight: 500;
-    font-size: 1.5rem;
-  }
-  .footer .container-footer .menu-footer .copyright .payment {
-    width: 300px;
-  }
-}
 @media (max-width: 468px) {
   body html {
     font-size: 42, 5%;
@@ -681,17 +425,17 @@ footer .container-footer .menu-footer .copyright .payment {
     padding: 22rem 0;
   }
   body .heading-1 {
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
   body .heading-2 {
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: darkblue;
     padding-top: 20px;
   }
   body .heading-3 {
     text-align: left;
-    font-size: 1.7rem;
+    font-size: 1rem;
     color: darkblue;
     padding-top: 15px;
   }
@@ -732,38 +476,25 @@ footer .container-footer .menu-footer .copyright .payment {
     color: darkblue;
   }
   header .container-hero .hero .container-user .fa-user {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding-right: 2.5rem;
     border-right: 1px solid;
   }
   header .container-hero .hero .container-user .fa-basket-shopping {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding-left: 1rem;
   }
   header .container-hero .hero .container-user content-chango {
     display: none;
   }
   header .container-navbar {
-    background-color: white;
+    background-color: #ffffff;
   }
   header .container-navbar .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
-  }
-  header .container-navbar .navbar .menu {
-    display: none;
-  }
-  header .container-navbar .navbar .menu li {
-    list-style-type: none;
-    color: darkblue;
-  }
-  header .container-navbar .navbar .menu a {
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: darkblue;
   }
   .banner {
     background-image: linear-gradient(100deg, #040405, rgba(0, 0, 0, 0.1254901961)), url(../assets/img/russian.png);
@@ -801,52 +532,43 @@ footer .container-footer .menu-footer .copyright .payment {
   .main-content {
     background-color: white;
   }
-  .main-content .top-diseños {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+  .main-content .container-categories {
+    display: grid;
+    gap: 1rem;
     margin-bottom: 3rem;
   }
-  .main-content .top-diseños .container-diseños {
+  .main-content .container-categories .card-categories {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1rem;
   }
-  .main-content .top-diseños .container-diseños .card-diseño {
-    height: 30rem;
-    width: 65rem;
+  .main-content .container-categories .card-categories .fa-code {
+    font-size: 2rem;
+  }
+  .main-content .container-categories .card-categories .fa-video {
+    font-size: 2rem;
+  }
+  .main-content .container-categories .card-categories .fa-codepen {
+    font-size: 2rem;
+    padding-bottom: 3px;
+  }
+  .main-content .container-categories .card-categories .content-categories {
+    padding: auto;
+    height: 10rem;
+    width: 30rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
-    gap: 2rem;
+    gap: 1rem;
   }
-  .main-content .top-diseños .container-diseños .diseño-abstractshape {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/abstractshape.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  .main-content .container-categories .card-categories .content-categories span {
+    font-size: 1.7rem;
   }
-  .main-content .top-diseños .container-diseños .diseño-bomberman {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/bomberman.jpg);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
-  .main-content .top-diseños .container-diseños .diseño-russian {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/russian.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .main-content .top-diseños .container-diseños p {
-    font-size: 2rem;
-    color: white;
-    text-transform: capitalize;
-    position: relative;
+  .main-content .container-categories .card-categories .content-categories p {
+    font-size: 1.5rem;
     text-align: center;
-    line-height: 1;
   }
   .main-content .galeria {
     display: grid;
@@ -865,21 +587,41 @@ footer .container-footer .menu-footer .copyright .payment {
     grid-row: 1/3;
   }
   .main-content #carouselExampleDark {
-    max-width: 300px;
-    max-height: 300px;
-    margin-top: 10%;
-    margin-bottom: 20%;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 15%;
+    margin-bottom: 30%;
     display: flex;
     align-items: center;
-    margin-left: 70px;
+    margin-left: 130px;
+  }
+  .main-content #carouselExampleDark .carousel-caption {
+    background-color: green;
+    border-radius: 10px;
+  }
+  .main-content #carouselExampleDark .carousel-caption .adquirir {
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  .main-content .container-products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-content .container-products .products {
+    width: 150px;
+    height: 200px;
   }
   .main-content .container-designs {
-    margin: 40px;
+    margin: 5%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    justify-content: space-around;
+  }
+  .main-content .container-form {
+    width: 400px;
   }
   .footer .container-footer {
     display: flex;
@@ -899,7 +641,7 @@ footer .container-footer .menu-footer .copyright .payment {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-left: 20%;
+    margin-left: 15%;
     align-items: center;
   }
   .footer .container-footer .menu-footer .info-contacto .titulo-footer-contacto {
@@ -936,7 +678,6 @@ footer .container-footer .menu-footer .copyright .payment {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-left: 20%;
   }
   .footer .container-footer .menu-footer .categorias .titulo-footer-categorias {
     display: none;

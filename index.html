@@ -41,14 +41,20 @@
             </div>
         </div>
         <div class="container-navbar">
-            <nav class="navbar">
-                <ul class="menu">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/mercado.html">Mercado</a></li>
-                    <li><a href="./pages/nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                    <li><a href="./pages/disenos.html">Diseños</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./pages/mercado.html">Mercado</a></li>
+                        <li><a href="./pages/nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="./pages/disenos.html">Diseños</a></li>
+                        <li><a href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -62,23 +68,32 @@
     </section>
 
     <main class="main-content">
-        <section class="container top-diseños">
-            <h1 class="heading-1">Diseños</h1>
-            <div class="container-diseños">
-                <div class="card-diseño diseño-abstractshape">
-                    <p>Render Product</p>
+        <section class="container container-categories">
+            <div class="card-categories">
+                <i class="fa-solid fa-code" style="color: #00008b;"></i>
+                <div class="content-categories">
+                    <span>Diseño Web</span>
+                    <p>Creamos una web para tu negocio</p>
                 </div>
-                <div class="card-diseño diseño-bomberman">
-                    <p>Modelado</p>
+            </div>
+            <div class="card-categories">
+                <i class="fa-solid fa-video" style="color: #00008b;"></i>
+                <div class="content-categories">
+                    <span>Edicion de videos</span>
+                    <p>Distintos formatos</p>
                 </div>
-                <div class="card-diseño diseño-russian">
-                    <p>Logos 3D</p>
+            </div>
+            <div class="card-categories">
+                <i class="fa-brands fa-codepen" style="color: #00008b;"></i>
+                <div class="content-categories">
+                    <span>Diseño 3D</span>
+                    <p>Render Producto, Modelado, Visualizers.</p>
                 </div>
             </div>
         </section>
 
         <div>
-            <h1 class="heading-1">Trabajos</h1>
+            <h1 class="heading-1">Diseños</h1>
         </div>
 
         <section class="galeria">
@@ -90,25 +105,40 @@
         </section>
 
         <div>
-            <h1 class="heading-1">Productos</h1>
+            <h1 class="heading-1">Productos 3D</h1>
         </div>
 
         <section>
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
-                    <img src="./assets/img/buzo.png" class="d-block w-100" alt="...">
+                    <video class="d-block w-100" autoplay src="./assets/video/modern-city.mp4"></video> 
                     <div class="carousel-caption d-none d-md-block">   
+                        <a class="adquirir" href="./pages/mercado.html">Adquirir</a> 
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./assets/img/men-tshirt.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">             
+                    <video class="d-block w-100" autoplay src="./assets/video/prototipado-velas.mp4"></video> 
+                    <div class="carousel-caption d-none d-md-block">   
+                        <a class="adquirir" href="./pages/mercado.html">Adquirir</a>           
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <video class="d-block w-100" autoplay src="./assets/video/0001-0250.mp4"></video> 
+                    <div class="carousel-caption d-none d-md-block"> 
+                        <a class="adquirir" href="./pages/mercado.html">Adquirir</a>             
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <video class="d-block w-100" autoplay src="./assets/video/remera-oversize.mp4"></video> 
+                    <div class="carousel-caption d-none d-md-block">   
+                        <a class="adquirir" href="./pages/mercado.html">Adquirir</a>           
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <video class="d-block w-100" autoplay src="./assets/video/chevrolet.mp4"></video> 
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="adquirir" href="./pages/mercado.html">Adquirir</a>             
                     </div>
                   </div>
                 </div>
@@ -134,7 +164,8 @@
                         <li>Lomas de Zamora, Buenos Aires B1832</li>
                         <li>11 7360-5516</li>
                         <li>Email: marcolu.russo@gmail.com</li>
-                        <li class="redes-sociales"><a href="https://www.instagram.com/_russianspirit/" ><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="redes-sociales"><a href="https://www.instagram.com/_russianspirit/" target="_blank" ><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="redes-sociales"><a href="https://github.com/marcorussoluciano/Russian-Spirit" target="_blank"><i class="fa-brands fa-github" style="color: #00008b;"></i></a></li>
                     </ul>
                 </div>
                 <div class="categorias">
@@ -143,8 +174,9 @@
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./pages/mercado.html">Mercado</a></li>
                         <li><a href="./pages/nosotros.html">Sobre nosotros</a></li>
-                        <li><a href="./pages/contacto.html">Contactanos</a></li>
                         <li><a href="./pages/disenos.html">Diseños</a></li>
+                        <li><a href="./pages/contacto.html">Contactanos</a></li>
+                        
                     </ul>
                 </div>
                 <div class="copyright">

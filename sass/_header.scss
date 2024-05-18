@@ -1,6 +1,6 @@
 header{
     .container-hero{
-        background-color: white;
+        background-color: $BackgroundPrimary;
         .hero{
             display: flex;
             justify-content: space-between;
@@ -10,11 +10,12 @@ header{
                 display: flex;
                 align-items: center;
                 gap: 2rem;
-                color: darkblue;
+                color: $ColorPrimary;
                 i{
-                    font-size: 3rem;
+                    font-size: $FontSize;
                 }
                 .content-customer-support{
+                    font-family: "Poppins", sans-serif;
                     display: flex;
                     flex-direction: column;
                 }
@@ -26,7 +27,7 @@ header{
                 h1{
                     font-family: "Monsieur La Doulaise", cursive;
                     text-decoration: none;
-                    color: darkblue;
+                    color: $ColorPrimary;
                     font-size: 7rem;
                 }
             }
@@ -34,43 +35,44 @@ header{
                 display: flex;
                 gap: 1rem;
                 cursor: pointer;
-                color: darkblue;
+                color: $ColorPrimary;
                 .fa-user{
-                    font-size: 3rem;
+                    font-size: $FontSize;
                     padding-right: 2.5rem;
                     border-right: 1px solid ;
                 }
                 .fa-basket-shopping{
-                    font-size: 3rem;
+                    font-size: $FontSize;
                     padding-left: 1rem;
                 }
                 content-chango{
                     display: flex;
                     flex-direction: column;
-                    color: rgb(0, 0, 139);
+                    color: $ColorPrimary;
                 }
             }
         }
     }
     .container-navbar{
-        background-color: white;
+        background-color: $BackgroundPrimary;
         .navbar{
             display: flex;
             justify-content: center;
-            align-items: center;
+            justify-items: center;
             padding: 5px;
             .menu{
                 display: flex;
                 gap: 2rem;
                 li{
                     list-style-type: none;
-                    color: darkblue;
+                    color: $ColorPrimary;
                 }
                 a{
+                    font-family: "Poppins", sans-serif;
                     text-decoration: none;
                     font-size: 1.3rem;
                     font-weight: 600;
-                    color: darkblue;
+                    color: $ColorPrimary;
                 }
             }
         }
