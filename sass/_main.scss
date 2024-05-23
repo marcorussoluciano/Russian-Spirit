@@ -12,13 +12,13 @@
             color: rgb(116, 116, 240);
             font-size: 2rem; 
             margin-bottom: 1rem;
-            font-weight: $FontWeight;
+            font-weight: $fontWeight;
         }
         h2{
             font-family: "Poppins", sans-serif;
             color: white;
             font-size: 3.5rem;
-            font-weight: $FontWeight;
+            font-weight: $fontWeight;
             line-height: 1.2;
         }
         a{
@@ -36,7 +36,7 @@
 }
 
 .main-content{
-    background-color: $BackgroundPrimary;
+    background-color: $backgroundPrimary;
     .container-categories{
         display: flex;
         flex-direction: row;
@@ -51,13 +51,13 @@
                 align-items: center;
                 gap: 2rem;
                 .fa-code{
-                    font-size: $FontSize;
+                    font-size: $fontSize;
                 }
                 .fa-video{
-                    font-size: $FontSize;
+                    font-size: $fontSize;
                 }
                 .fa-codepen{
-                    font-size: $FontSize;
+                    font-size: $fontSize;
                 }
                 .content-categories{
                     display: flex;
@@ -74,7 +74,7 @@
                     span{
                         font-family: "Poppins", sans-serif;
                         font-size: 2.5rem;
-                        color: $ColorPrimary;
+                        color: $colorPrimary;
                     }
                 }
             }
@@ -100,7 +100,7 @@
         max-width: 300px;
         max-height: 300px;
         margin-left: 40%;
-        margin-bottom: 15%;
+        margin-bottom: 20%;
         .carousel-caption{
             background-color: green;
             border-radius: 10px;
@@ -108,7 +108,7 @@
                 margin: 0 auto;
                 text-decoration: none;
                 color: white;
-                font-size: $FontSize;
+                font-size: $fontSize;
             }
         }    
     }
@@ -163,12 +163,11 @@
 
 .container-form{
     width: 500px;
-    background-color: $BackgroundPrimary;
+    background-color: $backgroundPrimary;
     border: darkblue solid 2px;
     border-radius: 5px;
     padding: 30px;
-    margin: auto;
-    margin-bottom: 40px;
+    margin: 0 auto;
     .controls{
         width: 100%;
         background-color: whitesmoke;

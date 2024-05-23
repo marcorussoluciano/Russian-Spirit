@@ -18,7 +18,7 @@ footer{
                 margin-left: 20%;
                 .titulo-footer-contacto{
                     font-family: "Poppins", sans-serif;
-                    font-weight: $FontWeight-1;
+                    font-weight: $fontWeight-1;
                     font-size: 2rem;
                     text-transform: uppercase;
                     color: darkblue;
@@ -31,12 +31,12 @@ footer{
                         font-family: "Poppins", sans-serif;
                         list-style-type: none;
                         font-size: 1.6rem;
-                        font-weight: $FontWeight;
+                        font-weight: $fontWeight;
                         color: darkblue;
                     }
                     a{
                         text-decoration: none;
-                        font-weight: $FontWeight;
+                        font-weight: $fontWeight;
                     }
                 }
                 .redes-sociales{
@@ -55,7 +55,7 @@ footer{
                 margin-left: 20%;
                 .titulo-footer-categorias{
                     font-family: "Poppins", sans-serif;
-                    font-weight: $FontWeight-1;
+                    font-weight: $fontWeight-1;
                     font-size: 2rem;
                     text-transform: uppercase;
                     color: darkblue;   
@@ -67,31 +67,31 @@ footer{
                     li{
                         list-style-type: none;
                         font-size: 1.6rem;
-                        font-weight: $FontWeight;
+                        font-weight: $fontWeight;
                     }
                     a{
                         font-family: "Poppins", sans-serif;
                         text-decoration: none;
-                        font-weight: $FontWeight;
+                        font-weight: $fontWeight;
                         color: darkblue;
                     }
                 }
             }
-            .copyright{
-                display: grid;
-                grid-template-columns: 2fr;
-                padding-top: 2rem;
-                border-top: 1px solid black;
-                margin-left: 120%;
-                p{
-                    font-family: "Poppins", sans-serif;
-                    font-weight: 500;
-                    font-size: 1.5rem;
-                }
-                .payment{
-                    width: 300px;
-                }            
-            }   
         }
+        .copyright{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top: 1px solid black;
+            p{
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
+            .payment{
+                width: 300px;
+            }            
+        }   
     }
 }

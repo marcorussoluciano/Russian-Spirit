@@ -1,6 +1,6 @@
 header{
     .container-hero{
-        background-color: $BackgroundPrimary;
+        background-color: $backgroundPrimary;
         .hero{
             display: flex;
             justify-content: space-between;
@@ -10,9 +10,9 @@ header{
                 display: flex;
                 align-items: center;
                 gap: 2rem;
-                color: $ColorPrimary;
+                color: $colorPrimary;
                 i{
-                    font-size: $FontSize;
+                    font-size: $fontSize;
                 }
                 .content-customer-support{
                     font-family: "Poppins", sans-serif;
@@ -27,7 +27,7 @@ header{
                 h1{
                     font-family: "Monsieur La Doulaise", cursive;
                     text-decoration: none;
-                    color: $ColorPrimary;
+                    color: $colorPrimary;
                     font-size: 7rem;
                 }
             }
@@ -35,26 +35,26 @@ header{
                 display: flex;
                 gap: 1rem;
                 cursor: pointer;
-                color: $ColorPrimary;
+                color: $colorPrimary;
                 .fa-user{
-                    font-size: $FontSize;
+                    font-size: $fontSize;
                     padding-right: 2.5rem;
                     border-right: 1px solid ;
                 }
                 .fa-basket-shopping{
-                    font-size: $FontSize;
+                    font-size: $fontSize;
                     padding-left: 1rem;
                 }
                 content-chango{
                     display: flex;
                     flex-direction: column;
-                    color: $ColorPrimary;
+                    color: $colorPrimary;
                 }
             }
         }
     }
     .container-navbar{
-        background-color: $BackgroundPrimary;
+        background-color: $backgroundPrimary;
         .navbar{
             display: flex;
             justify-content: center;
@@ -65,14 +65,14 @@ header{
                 gap: 2rem;
                 li{
                     list-style-type: none;
-                    color: $ColorPrimary;
+                    color: $colorPrimary;
                 }
                 a{
                     font-family: "Poppins", sans-serif;
                     text-decoration: none;
                     font-size: 1.3rem;
                     font-weight: 600;
-                    color: $ColorPrimary;
+                    color: $colorPrimary;
                 }
             }
         }
